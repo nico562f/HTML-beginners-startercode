@@ -4,8 +4,39 @@
 <title>Tabeller i HTML</title>
 <meta charset="utf-8" />
 <meta name="description" content="Dette er siden til video 4 i vores HTML kursus" />
+<style>
+    table, th, td {
+    border: 1px solid black;
+    }
+</style>
 </head>
 <body>
-
+<table>
+<tr>
+    <th>virksomhed</th>
+    <th>Navn</th>
+</tr>
+<tr>
+    <td>Hansen ApS</td>
+    <td rowspan="2">Jens</td>
+    ><table>
+        <tr>
+            <th>Fornavn</th>
+            <th>Efternavn</th>
+        </tr>
+        <tr>
+            <td>Mogens</td>
+            <td>Hansen</td>
+        </tr>
+    </table>
+</tr>
+<tr>
+    <td>Hansen ApS</td>
+</tr>
+<tr>
+    <td colspan=¨2¨>Pedersen A/S</td>
+    <td>Hans</td>
+</tr>
+</table>
 </body>
 </html>
